@@ -65,3 +65,7 @@ git config --global mergetool.keepbackup false
 Review the config settings:
 git config --global --list
 
+
+Generate the key:
+=================
+ssh-keygen -t rsa -C "rameshbigdataengineer@gmail.com"
