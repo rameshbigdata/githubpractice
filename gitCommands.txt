@@ -69,3 +69,8 @@ git config --global --list
 Generate the key:
 =================
 ssh-keygen -t rsa -C "rameshbigdataengineer@gmail.com"
+
+open the key:
+cat ~/.ssh/id_rsa.pub
+
+Add the public key to GitHub → Settings → SSH and GPG keys
